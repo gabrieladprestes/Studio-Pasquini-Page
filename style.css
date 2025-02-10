@@ -40,11 +40,13 @@ body {
 
 .bg {
     background-color: #1D1D1D;
-	height: 95vh;
+	height: 88vh;
 }
 .bg h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	text-align: center;
-	color: #A2A2A2;
+	color: #C4C4C4;
+	font-weight: bold;
 }
 .sections #contact {
     display: flex;
