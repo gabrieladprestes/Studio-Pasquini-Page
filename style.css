@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+body {
+	background-color: #E3E3E3
+}
 #imageContainer {
 	height: 100%
 }
@@ -7,14 +10,16 @@
 #about h4 {
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
     font-weight: 100;
-    font-size: 35px;
+    font-size: 40px;
     color: #3D3D3D;
-}
-#about-studio {
-	letter-spacing: 5px;
 }
 .navbar.navbar-expand-lg {
     background-color: #575757;
+	position: fixed;
+	width: 80%;
+	border-radius: 20px;
+	margin-top: 0.5%;
+	margin-left: 10%;
 }
 #logos{
 	padding: 20px;
@@ -22,6 +27,7 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 20px;
 	justify-content: center;
+	height: 80%;
 }
 .item {
 	display: flex;
@@ -33,7 +39,12 @@
 }
 
 .bg {
-    background-color: #2E2E2E;
+    background-color: #1D1D1D;
+	height: 95vh;
+}
+.bg h1 {
+	text-align: center;
+	color: #A2A2A2;
 }
 .sections #contact {
     display: flex;
@@ -44,9 +55,10 @@
 }
 #contact p {
     font-weight: 300;
-	font-size: 27px;
+	font-size: 24px;
     text-align: center;
     max-width: 40vw;
+	margin-bottom: 10%;
 }
 #contact .btn-group {
     display: block;
