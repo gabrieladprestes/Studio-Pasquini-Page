@@ -3,8 +3,13 @@
 body {
 	background-color: #E3E3E3
 }
-#imageContainer {
-	height: 100%
+#videoContainer {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#video {
 }
 
 #about h4 {
@@ -124,8 +129,4 @@ body {
 .navbar.navbar-expand-lg {
 	display: flex;
 	justify-content: center;
-}
-
-#teste {
-	width: 100%;
 }
