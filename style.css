@@ -7,10 +7,18 @@ body {
 	background-color: #575757;
 	width: 100%;
 	height: 20vh;
-	
+}
+#fixedContainer {
+	z-index: 10;
 }
 #video {
 	width: 100%
+}
+#videoContainer-mobile {
+	display: none;
+}
+#video-mobile {
+	width: 100%;
 }
 #about h4 {
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
@@ -43,6 +51,9 @@ body {
 }
 #footer .container #copyright {
     margin-top: 10px;
+}
+#services-mobile {
+	display: none;
 }
 
 .bg {
@@ -131,5 +142,17 @@ body {
 @media screen and (max-width: 768px){
 	#videoContainer{
 		display: none;
+	}
+	#videoContainer-mobile {
+		display: block;
+	}
+	#services{
+		display: none;
+	}
+	#services-mobile{
+		display: block;
+	}
+	#contact p {
+		max-width: 70vw;
 	}
 }
