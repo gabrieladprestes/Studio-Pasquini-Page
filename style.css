@@ -111,14 +111,14 @@ body {
 
 #icons {
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	align-items: flex-end
 }
 #icons a .img-fluid {
 	transition: 0.3s;
 }
 #icons a .img-fluid:hover {
-	width: 32px;
+	width: 40px;
 	height: auto;
 }
 .row #icons a {
@@ -129,6 +129,12 @@ body {
     display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+	align-items: flex-start;
+}
+#footer-contact a {
+	color: #ABABAB;
+	text-decoration: underline;
+	display: block;
 }
 .sections {
     height: 100vh;
@@ -144,21 +150,6 @@ body {
 	display: flex;
 	justify-content: space-around;
 }
-
-#links a {
-	font-size: 18px;
-	color: #A8A8A8;
-	background-color: #1A1A1A;
-	padding: 10px;
-	border-radius: 15px;
-	transition: 0.3s;
-}
-
-#links a:hover {
-	background-color: #292929;
-	text-decoration: none;
-}
-
 @media screen and (max-width: 768px){
 	#videoContainer{
 		display: none;
