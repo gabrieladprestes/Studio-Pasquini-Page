@@ -275,26 +275,27 @@ body {
   	border-color: #545b62;
 }
 /* about page */
-#about-content{
+#about-header{
 	padding: 3%;
 	display: flex;
 }
-#left-side{
-	background-color: #E3E3E3;
+.left-side{
+	margin-right: 100px;
 }
-#left-side h1{
-	margin-bottom: 35px
+.left-side h1{
+	margin-bottom: 25px;
+	font-size: 60px
 }
-#left-side p{
+.left-side p{
 	font-size: 22px;
 	font-weight: 400;
+	margin-bottom: 50px;
 }
-#left-side img{
-	width: 95%;
+#design_photo{
 	margin-bottom: 10px;
 }
-#right-side p{
-	font-size: 20px;
+.right-side p{
+	font-size: 21px;
 	margin-bottom: 20px;
 }
 #bold{
@@ -316,50 +317,73 @@ body {
 	font-size: 18px;
 	text-align: center;
 }
+#emphasis{
+	height: 50vh;
+	background-color: #DCDCDC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 3%;
+}
+#emphasis p{
+	text-align: center;
+	font-size: 23px;
+	max-width: 53%;
+}
+.values{
+	padding: 3%;
+	background-color: #DCDCDC;
+	display: flex;
+}
 @media screen and (max-width: 768px){
-	#left-side p{
-		font-size: 18px;
+	.left-side {
+		margin-right: 0px;
 	}
-	#about-content{
+	.left-side h1{
+		font-size: 55px
+	}
+	.left-side p{
+		font-size: 20px;
+	}
+	.right-side{
+		margin-top: 50px;
+	}
+	#about-header{
 		display: block;
+	}
+	#emphasis p{
+		font-size: 20px;
+		max-width: 80%;
+	}
+	.values{
+		display: block;
+	}
+	.side-photo{
+		display: none;
 	}
 }
 /* works page */
-.works-container{
+#title{
+	font-size: 70px;
+	margin-bottom: 40px;
+}
+#works{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+#works a{
 	display: flex;
-	width: 100%;
-	margin-bottom: 20px;
-}
-.left-container{
-	width: 50vw;
-}
-.left-container h1{
-	margin-bottom: 40px
-}
-.left-container p{
-	font-size: 21px
-}
-.left-work{
-	display: flex;
+	justify-content: center;
+	align-items: center;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	background-color: #DCDCDC;
+	padding: 20px;
+	text-decoration: none;
+	transition: 0.3s;
 }
-.right-container{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-.multiple-work{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-}
-.line{
-	height: 3px;
-	width: 80%;
-	background-color: dimgray;
-	margin: 10px 0px
+#works a:hover{
+	background-color: #BCBCBC;
 }
