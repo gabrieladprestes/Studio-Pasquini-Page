@@ -372,18 +372,69 @@ body {
 	grid-template-columns: 1fr 1fr 1fr;
 	justify-content: center;
 	align-items: center;
-	gap: 20px;
+	gap: 30px;
 }
 #works a{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
-	background-color: #DCDCDC;
-	padding: 20px;
 	text-decoration: none;
 	transition: 0.3s;
 }
 #works a:hover{
-	background-color: #BCBCBC;
+	background-color: #DCDCDC;
+}
+/* services page */
+#services-header{
+	padding: 3%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vw;
+}
+#services-header h1{
+	max-width: 50%;
+	text-align: center;
+	font-size: 60px;
+}
+.services-bg-gray{
+	display: flex;
+	padding: 3%;
+	background-color: #DCDCDC;
+}
+.services-bg{
+	display: flex;
+	padding: 3%;
+}
+#portfolio-link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#portfolio-link h2{
+	text-align: center;
+	max-width: 20%;
+}
+#portfolio-link a{
+	color: #3D3D3D;
+	text-decoration: underline;
+}
+@media screen and (max-width: 768px){
+	#services-header{
+		height: 35vh;
+	}
+	#services-header h1{
+		font-size: 40px;
+		max-width: 80%;
+	}
+	.services-bg-gray{
+		display: block;
+	}
+	.services-bg{
+		display: block;
+	}
+	#portfolio-link h2{
+	max-width: 40%;
+	}
 }
