@@ -276,7 +276,7 @@ body {
 }
 /* about page */
 #about-header{
-	padding: 3%;
+	padding: 10%;
 	display: flex;
 }
 .left-side{
@@ -331,7 +331,7 @@ body {
 	max-width: 53%;
 }
 .values{
-	padding: 3%;
+	padding: 10%;
 	background-color: #DCDCDC;
 	display: flex;
 }
@@ -385,6 +385,17 @@ body {
 #works a:hover{
 	background-color: #DCDCDC;
 }
+@media screen and (max-width: 768px){
+	#works{
+		grid-template-columns: 1fr 1fr;
+	}
+	#works img{
+		width: 80%;
+	}
+	#works h3{
+		font-size: 24px;
+	}
+}
 /* services page */
 #services-header{
 	padding: 3%;
@@ -400,12 +411,12 @@ body {
 }
 .services-bg-gray{
 	display: flex;
-	padding: 3%;
+	padding: 10%;
 	background-color: #DCDCDC;
 }
 .services-bg{
 	display: flex;
-	padding: 3%;
+	padding: 10%;
 }
 #portfolio-link{
 	display: flex;
@@ -433,6 +444,9 @@ body {
 	}
 	.services-bg{
 		display: block;
+	}
+	#img-responsible{
+		display: none;
 	}
 	#portfolio-link h2{
 	max-width: 40%;
