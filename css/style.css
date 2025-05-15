@@ -365,6 +365,7 @@ body {
 /* works page */
 #title{
 	font-size: 70px;
+	margin-left: 4%;
 	margin-bottom: 40px;
 }
 #works{
@@ -380,10 +381,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-	transition: 0.3s;
-}
-#works a:hover{
-	background-color: #DCDCDC;
 }
 @media screen and (max-width: 768px){
 	#works{
