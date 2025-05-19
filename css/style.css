@@ -241,6 +241,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	height: 70vh;
 }
 #contact .btn-group {
     display: block;
@@ -405,11 +406,17 @@ body {
 	#works{
 		grid-template-columns: 1fr 1fr;
 	}
+	.container-img{
+		width: 70%
+	}
 	#works img{
-		width: 80%;
+		width: 100%;
 	}
 	#works h3{
 		font-size: 24px;
+	}
+	#title{
+		margin-left: 6%;
 	}
 }
 /* services page */
@@ -466,5 +473,54 @@ body {
 	}
 	#portfolio-link h2{
 	max-width: 40%;
+	}
+}
+/* seara page */
+.element-container{
+	display: flex;
+	padding: 5% 10%;
+}
+.seara-title{
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.images-seara{
+	display: flex;
+	padding: 10%;
+}
+.products{
+	padding: 10%;
+}
+.left-side-image{
+	margin-right: 100px;
+}
+#coxinha{
+	padding: 10%;
+}
+#destaque{
+	height: 50vh;
+	background-color: #DCDCDC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#destaque p{
+	text-align: center;
+	font-size: 23px;
+	max-width: 65%;
+}
+@media screen and (max-width: 768px){
+	.element-container{
+		display: block;
+	}
+	.products{
+		display: none;
+	}
+	.left-side-image{
+		margin-right: 20px;
+	}
+	#destaque p{
+		font-size: 20px;
+		max-width: 80%;
 	}
 }
