@@ -516,6 +516,9 @@ body {
 	.element-container{
 		display: block;
 	}
+	.seara-title{
+		font-size: 35px;
+	}
 	.products{
 		display: none;
 	}
@@ -523,7 +526,7 @@ body {
 		margin-right: 20px;
 	}
 	#destaque p{
-		font-size: 20px;
+		font-size: 17px;
 		max-width: 80%;
 	}
 }
