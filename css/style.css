@@ -344,7 +344,7 @@ body {
 		margin-right: 0px;
 	}
 	.left-side h1{
-		font-size: 55px
+		font-size: 40px
 	}
 	.left-side p{
 		font-size: 20px;
@@ -515,9 +515,6 @@ body {
 @media screen and (max-width: 768px){
 	.element-container{
 		display: block;
-	}
-	.seara-title{
-		font-size: 35px;
 	}
 	.products{
 		display: none;
