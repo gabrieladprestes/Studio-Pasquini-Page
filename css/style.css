@@ -370,6 +370,7 @@ body {
 #title{
 	font-size: 70px;
 	margin-bottom: 40px;
+	margin-left: 7.5%
 }
 #works{
 	display: grid;
@@ -377,6 +378,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	gap: 17px;
+	padding: 0px 7.5%;
 }
 .container-img{
 	width: 100%;
@@ -405,6 +407,7 @@ body {
 @media screen and (max-width: 768px){
 	#works{
 		grid-template-columns: 1fr 1fr;
+		padding: 0px;
 	}
 	.container-img{
 		width: 70%
