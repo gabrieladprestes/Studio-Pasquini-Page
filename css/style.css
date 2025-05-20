@@ -527,3 +527,31 @@ body {
 		max-width: 80%;
 	}
 }
+/* swift page */
+.swift-titles{
+	text-transform: uppercase;
+	font-weight: 400;
+}
+#peito-frango{
+	padding: 10%;
+}
+#center-text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#center-text p{
+	font-size: 22px;
+	max-width: 60%;
+	text-align: center;
+}
+#trio-image{
+	padding: 5% 10%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width: 768px){
+	#trio-image{
+		grid-template-columns: 1fr 1fr;
+	}	
+}
