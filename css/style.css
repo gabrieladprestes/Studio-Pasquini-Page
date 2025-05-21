@@ -555,3 +555,53 @@ body {
 		grid-template-columns: 1fr 1fr;
 	}	
 }
+/* principe page */
+.principe-titles{
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.products-principe{
+	padding: 10%;
+}
+#center-text-gray{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #DCDCDC;
+	flex-direction: column;
+	padding: 25px 0px;
+}
+#center-text-gray p{
+	font-size: 22px;
+	text-align: center;
+	max-width: 58%;
+	margin-bottom: 22px;
+	font-weight: 500;
+}
+#center-text-principe{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#center-text-principe h5{
+	font-size: 26px
+}
+#center-text-principe p{
+	font-size: 22px;
+	text-align: center;
+	max-width: 58%;
+}
+@media screen and (max-width: 768px){
+	#center-text-gray p{
+		max-width: 80%;
+		font-size: 17px;
+	}
+	#img-display{
+		display: none;
+	}
+	#center-text-principe p{
+		max-width: 80%;
+		font-size: 17px;
+	}
+}
