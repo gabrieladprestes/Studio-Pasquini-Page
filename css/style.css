@@ -539,6 +539,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 #center-text p{
 	font-size: 22px;
@@ -553,7 +554,10 @@ body {
 @media screen and (max-width: 768px){
 	#trio-image{
 		grid-template-columns: 1fr 1fr;
-	}	
+	}
+	#center-text p{
+		max-width: 80%;
+	}
 }
 /* principe page */
 .principe-titles{
@@ -604,4 +608,23 @@ body {
 		max-width: 80%;
 		font-size: 17px;
 	}
+}
+/* plumrose page */
+.plumrose-titles{
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.products-plumrose{
+	padding: 10%;
+}
+.element-container-gray{
+	display: flex;
+	padding: 5% 10%;
+	background-color: #DCDCDC;
+	margin-bottom: 3%;
+}
+@media screen and (max-width: 768px){
+	.element-container-gray{
+		display: block;
+	}	
 }
