@@ -492,7 +492,7 @@ body {
 	padding: 10%;
 }
 .products{
-	padding: 10%;
+	padding: 5% 10%;
 }
 .left-side-image{
 	margin-right: 100px;
@@ -627,4 +627,54 @@ body {
 	.element-container-gray{
 		display: block;
 	}	
+}
+/* wellsley page */
+.wellsley-titles{
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.background-red{
+	background-color: #f59281;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 5%;
+}
+.background-red p{
+	font-size: 22px;
+	max-width: 60%;
+	text-align: center;
+}
+.doble-image{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 5% 10%;
+	gap: 30px;
+}
+.responsive-product{
+	padding: 5% 10%;
+}
+.trio-image-spaced{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 5% 10%;
+	gap: 30px;
+}
+@media screen and (max-width: 768px){
+	.background-red p{
+		max-width: 80%;
+		font-size: 18px;
+	}
+	.background-red h4{
+		text-align: center;
+	}
+	.trio-image-spaced{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+/* wellsley page */
+.styled-titles{
+	font-weight: 400;
+	text-transform: uppercase;
 }
